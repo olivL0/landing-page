@@ -63,6 +63,7 @@ button {
     border-radius: 8px;
     padding: 6px 16px;
     margin-top: 8px;
+    border: 0;
 }
 
 .img1 {
@@ -131,9 +132,9 @@ button {
 
 .section4 {
     border-radius: 8px;
-    margin: 64px 100px;
+    margin: 64px 80px;
     background-color: #3882F6;
-    padding: 24px;
+    padding: 24px 48px;
     display: flex;
     color: #F9FAF8;
     justify-content: space-between;
@@ -141,10 +142,30 @@ button {
 
 #title3 {
     font-weight: 700;
+    text-align: left;
+    width: 400px;
 }
 
 .section4 .container {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    gap: 0;
+}
+
+.section4 .container .text {
+    font-size: 14px;
+    width: 400px;
+    text-align: left;
+}
+
+.section4 .signup {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 28px;
+    font-size: 12px;
 }
